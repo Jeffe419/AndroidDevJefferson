@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <TextView
+        android:id="@+id/txtSearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/itemlist"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="-2dp"
+        android:layout_marginEnd="206dp"
+        android:layout_marginBottom="304dp"
+        android:text="@string/please_enter_date_to_find_incidents_roadworks_planned_roadworks"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btnDate"
+        android:layout_width="274dp"
+        android:layout_height="151dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="21dp"
+        android:layout_marginBottom="159dp"
+        android:text="Select Date"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/btnSearch"
+        android:layout_width="330dp"
+        android:layout_height="143dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="22dp"
+        android:layout_marginBottom="166dp"
+        android:text="@string/search"
+        android:textColor="#7B1FA2" />
+
+    <ListView
+        android:id="@+id/itemlist"
+        android:layout_width="match_parent"
+        android:layout_height="257dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="5dp" />
+
+</RelativeLayout>

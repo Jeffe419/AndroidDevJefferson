@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Traffic Scotland</string>
+
+    <string name="please_enter_date_to_find_incidents_roadworks_planned_roadworks">Please enter date to find Incidents/Roadworks/Planned Roadworks</string>
+    <string name="search">Search</string>
+
+    <string name="map">Map</string>
+    <string name="plan">Plan</string>
+    <string name="textview">TextView</string>
+    <string name="Construction" />
+    <string name="select_end">Select End</string>
+    <string name="select_start">Select Start</string>
+</resources>

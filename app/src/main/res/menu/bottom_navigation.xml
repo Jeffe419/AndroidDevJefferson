@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:id="@+id/nav_search"
+    android:icon="@drawable/ic_baseline_search_24"
+    android:title="@string/search"/>
+
+    <item
+        android:id="@+id/nav_map"
+        android:icon="@drawable/ic_baseline_map_24"
+        android:title="@string/map"/>
+
+    <item
+        android:id="@+id/nav_plan"
+        android:icon="@drawable/ic_baseline_card_travel_24"
+        android:title="@string/plan"/>
+
+    <item
+        android:id="@+id/nav_construction"
+        android:icon="@drawable/ic_baseline_construction_24"
+        android:title="Construction"/>
+
+
+
+</menu>
